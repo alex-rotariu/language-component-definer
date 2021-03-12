@@ -1,0 +1,18 @@
+{
+    "id": "language-component-definer",
+    "name": "CES Language Component Definer",
+    "description": "This plugin splits files into Components based on programming languages",
+    "version": "0.0.1",
+    "schemaVersion": "1",
+    "icon": "",
+    "commands": [
+      {
+        "id": "language-component-definer",
+        "name": "CES Language Component Definer",
+        "type": "componentDefiner",
+        "description": "Generates Components based on programming languages",
+        "commandTemplate": "language-component-definer --of ${outputFile} --ftg ${filesToGroup}",
+        "configurationFields": []
+      }
+    ]
+  }
