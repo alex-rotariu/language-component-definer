@@ -4,8 +4,8 @@
 
 ## Prerequisites
 * **dx-platform**
-* **Node.js** version 14.x.x
-* **openjdk** version 1.8.x
+* **Node.js** ![Version](https://img.shields.io/badge/Version-%5E14.0.0-brightgreen)
+* **openjdk** ![Version](https://img.shields.io/badge/Version-%5E1.8.0-brightgreen) 
 
 ## Installation
 The plugin can be cloned by running the command from the **dxworks** directory inside dx-platform.
