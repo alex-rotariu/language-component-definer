@@ -1,39 +1,6 @@
 [
     {
-        "fullyQualifiedName": "@",
-        "files": [
-            "MANIFEST.in",
-            "superset-frontend/.eslintignore",
-            "superset-frontend/images/screenshots/explore.png",
-            "superset-frontend/images/screenshots/deckgl_dash.png",
-            "superset-frontend/images/screenshots/visualizations.png",
-            "helm/superset/.helmignore",
-            "superset-frontend/spec/javascripts/dashboard/.eslintrc",
-            "superset-frontend/src/dashboard/.eslintrc",
-            "superset-frontend/spec/javascripts/messageToasts/.eslintrc",
-            "superset-frontend/spec/.eslintrc",
-            "NOTICE",
-            "RELEASING/Dockerfile.make_tarball",
-            "RELEASING/Dockerfile.from_svn_tarball",
-            "RELEASING/Dockerfile.make_docs",
-            "Dockerfile",
-            "requirements/docker.in",
-            "superset-frontend/cypress-base/.eslintrc",
-            "requirements/testing.in",
-            "requirements/integration.in",
-            "scripts/databases/hive/Makefile",
-            "docs/.prettierrc",
-            "requirements/development.in",
-            "docs/.htaccess",
-            "superset-frontend/images/screenshots/gallery.png",
-            "superset-frontend/.nvmrc",
-            "docker/.env-non-dev",
-            "superset-frontend/src/components/.eslintrc",
-            "superset-frontend/src/common/components/.eslintrc"
-        ]
-    },
-    {
-        "fullyQualifiedName": "GCC-Machine-Description",
+        "fullyQualifiedName": "gcc-machine-description",
         "files": [
             "README.md",
             "CONTRIBUTING.md",
@@ -58,7 +25,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "Gettext-Catalog",
+        "fullyQualifiedName": "gettext-catalog",
         "files": [
             "superset/translations/messages.pot",
             "superset/translations/zh/LC_MESSAGES/messages.po",
@@ -75,14 +42,14 @@
         ]
     },
     {
-        "fullyQualifiedName": "HAProxy",
+        "fullyQualifiedName": "haproxy",
         "files": [
             "superset/translations/babel.cfg",
             "setup.cfg"
         ]
     },
     {
-        "fullyQualifiedName": "Text",
+        "fullyQualifiedName": "text",
         "files": [
             "LICENSE.txt",
             "superset/templates/email/role_extended.txt",
@@ -102,7 +69,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "Python",
+        "fullyQualifiedName": "python",
         "files": [
             "setup.py",
             "tests/__init__.py",
@@ -794,14 +761,14 @@
         ]
     },
     {
-        "fullyQualifiedName": "reStructuredText",
+        "fullyQualifiedName": "restructuredtext",
         "files": [
             "docs/installation.rst",
             "docs/sqllab.rst"
         ]
     },
     {
-        "fullyQualifiedName": "HTML",
+        "fullyQualifiedName": "html",
         "files": [
             "superset/templates/appbuilder/navbar.html",
             "superset/templates/superset/models/database/macros.html",
@@ -839,7 +806,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "Shell",
+        "fullyQualifiedName": "shell",
         "files": [
             "scripts/pypi_push.sh",
             "superset-frontend/js_build.sh",
@@ -872,7 +839,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "INI",
+        "fullyQualifiedName": "ini",
         "files": [
             "tox.ini",
             "superset/migrations/alembic.ini",
@@ -880,7 +847,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "JSON",
+        "fullyQualifiedName": "json",
         "files": [
             "superset-frontend/package.json",
             "superset/templates/superset/csrf_token.json",
@@ -913,7 +880,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "JavaScript",
+        "fullyQualifiedName": "javascript",
         "files": [
             "superset-frontend/spec/javascripts/sqllab/QueryTable_spec.jsx",
             "superset-frontend/spec/javascripts/sqllab/QuerySearch_spec.jsx",
@@ -1351,7 +1318,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "Less",
+        "fullyQualifiedName": "less",
         "files": [
             "superset-frontend/stylesheets/less/index.less",
             "superset-frontend/stylesheets/less/cosmo/bootswatch.less",
@@ -1393,13 +1360,13 @@
         ]
     },
     {
-        "fullyQualifiedName": "Mako",
+        "fullyQualifiedName": "mako",
         "files": [
             "superset/migrations/script.py.mako"
         ]
     },
     {
-        "fullyQualifiedName": "YAML",
+        "fullyQualifiedName": "yaml",
         "files": [
             "helm/superset/values.yaml",
             "helm/superset/Chart.yaml",
@@ -1529,13 +1496,13 @@
         ]
     },
     {
-        "fullyQualifiedName": "Smarty",
+        "fullyQualifiedName": "smarty",
         "files": [
             "helm/superset/templates/_helpers.tpl"
         ]
     },
     {
-        "fullyQualifiedName": "TypeScript",
+        "fullyQualifiedName": "typescript",
         "files": [
             "superset-frontend/src/featureFlags.ts",
             "superset-frontend/spec/javascripts/utils/safeStringify_spec.ts",
@@ -1750,13 +1717,13 @@
         ]
     },
     {
-        "fullyQualifiedName": "CSV",
+        "fullyQualifiedName": "csv",
         "files": [
             "tests/fixtures/trends.csv"
         ]
     },
     {
-        "fullyQualifiedName": "SVG",
+        "fullyQualifiedName": "svg",
         "files": [
             "superset-frontend/branding/superset-logo-stacked-apache.svg",
             "superset-frontend/branding/superset-logo-horiz.svg",
@@ -1906,7 +1873,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "HTML-Django",
+        "fullyQualifiedName": "html-django",
         "files": [
             "RELEASING/email_templates/result_pmc.j2",
             "RELEASING/email_templates/announce.j2",
@@ -1914,7 +1881,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "Ignore-List",
+        "fullyQualifiedName": "ignore-list",
         "files": [
             "docker/pythonpath_dev/.gitignore",
             "superset-frontend/.gitignore",
@@ -1924,7 +1891,7 @@
         ]
     },
     {
-        "fullyQualifiedName": "TSX",
+        "fullyQualifiedName": "tsx",
         "files": [
             "superset-frontend/src/components/ListView/ListView.tsx",
             "superset-frontend/src/CRUD/CollectionTable.tsx",
@@ -2254,13 +2221,13 @@
         ]
     },
     {
-        "fullyQualifiedName": "CSS",
+        "fullyQualifiedName": "css",
         "files": [
             "superset-frontend/.storybook/storybook.css"
         ]
     },
     {
-        "fullyQualifiedName": "Markdown",
+        "fullyQualifiedName": "markdown",
         "files": [
             "docs/src/pages/docs/Connecting to Databases/athena.mdx",
             "docs/src/pages/docs/installation/upgrading_superset.mdx",
@@ -2323,9 +2290,42 @@
         ]
     },
     {
-        "fullyQualifiedName": "SCSS",
+        "fullyQualifiedName": "scss",
         "files": [
             "docs/src/components/layout.scss"
+        ]
+    },
+    {
+        "fullyQualifiedName": "@",
+        "files": [
+            "MANIFEST.in",
+            "superset-frontend/.eslintignore",
+            "superset-frontend/images/screenshots/explore.png",
+            "superset-frontend/images/screenshots/deckgl_dash.png",
+            "superset-frontend/images/screenshots/visualizations.png",
+            "helm/superset/.helmignore",
+            "superset-frontend/spec/javascripts/dashboard/.eslintrc",
+            "superset-frontend/src/dashboard/.eslintrc",
+            "superset-frontend/spec/javascripts/messageToasts/.eslintrc",
+            "superset-frontend/spec/.eslintrc",
+            "NOTICE",
+            "RELEASING/Dockerfile.make_tarball",
+            "RELEASING/Dockerfile.from_svn_tarball",
+            "RELEASING/Dockerfile.make_docs",
+            "Dockerfile",
+            "requirements/docker.in",
+            "superset-frontend/cypress-base/.eslintrc",
+            "requirements/testing.in",
+            "requirements/integration.in",
+            "scripts/databases/hive/Makefile",
+            "docs/.prettierrc",
+            "requirements/development.in",
+            "docs/.htaccess",
+            "superset-frontend/images/screenshots/gallery.png",
+            "superset-frontend/.nvmrc",
+            "docker/.env-non-dev",
+            "superset-frontend/src/components/.eslintrc",
+            "superset-frontend/src/common/components/.eslintrc"
         ]
     }
 ]

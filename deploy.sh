@@ -1,2 +1,5 @@
+#!/bin/bash
 npm i -g
-cp plugin-info.json ~/.dx-platform/plugins/language-component-definer/plugin-info.json
+echo Deploying plugin language-component-definer
+mkdir $HOME/.dx-platform/plugins/language-component-definer
+cp plugin-info.json $HOME/.dx-platform/plugins/language-component-definer/plugin-info.json

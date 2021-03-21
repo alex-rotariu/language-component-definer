@@ -39,7 +39,7 @@ const filesToGroup = options.ftg
 const allFiles = fs.readFileSync(filesToGroup, {encoding: 'UTF-8'}).toString().split("\n").filter(file => file.length !== 0)
 
 const defaultComponent = new Component("@", [])
-const components = [defaultComponent]
+const components = []
 
 allFiles.forEach(file_path => {
     let idx = file_path.lastIndexOf(".")
@@ -53,6 +53,7 @@ allFiles.forEach(file_path => {
         language = language.join("-")
         language = language.split("+")
         language = language.join("-")
+        language = language.toLocaleLowerCase()
         if('extensions' in properties) {
             if(properties.extensions.includes(extension)){
                 const component = components.find(c => language == c.fullyQualifiedName)
@@ -69,4 +70,6 @@ allFiles.forEach(file_path => {
     }
     defaultComponent.files.push(file_path)
 })
+
+components.push(defaultComponent)
 fs.writeFileSync(options.of, JSON.stringify(components))
