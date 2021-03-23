@@ -8,7 +8,9 @@
 * **openjdk** ![Version](https://img.shields.io/badge/Version-%5E1.8.0-brightgreen) 
 
 ## Installation
-The plugin can be cloned by running the command from the **dxworks** directory inside dx-platform.
+The latest release of the source code can be downloaded from the Releases tab.
+
+The plugin can also be cloned by running the command from the **dxworks** directory inside dx-platform.
 ```bash
 cd .dx-platform & mkdir dxworks & cd dxworks
 git clone https://github.com/alex-rotariu/language-component-definer.git
@@ -20,7 +22,7 @@ sh deploy.sh
 ```
 
 ## Docker installation
-If you have Docker you can download the project image with dx-platform and 2 test projects installed. 
+If you have Docker installed on your machine, you can download the project image that comes prepackaged with dx-platform and 2 test projects installed (Kafka and Superset). 
 ```bash
 docker pull daidalos8/language-definer
 docker run -p 6060:6060 daidalos8/language-definer
